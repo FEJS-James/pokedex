@@ -1,0 +1,84 @@
+$color-poke-red:  #DD1D25
+$color-teal: #85C9D1
+$color-grey: #7E7E7E
+$color-lightgrey: #AFAFAF
+$color-darkblue: #323648
+$color-smoke: #F6F8FA
+
+
+#app_pokedex,
+#app_pokemon 
+    .white
+        background-color: lightgrey
+    .black
+        background-color: black
+    .gray
+        background-color: gray
+    .brown
+        background-color: brown
+    .yellow
+        background-color: #e4bd00
+    .green
+        background-color: green
+    .blue
+        background-color: blue
+    .red
+        background-color: red
+    .purple
+        background-color: purple
+    .pink
+        background-color: pink
+
+
+
+
+
+
+.animate_tile-enter-active,
+.animate_tile-leave-active
+    transition: all .8s 
+
+.animate_tile-enter 
+    // transform:  translateY(50%)  
+    opacity: 0
+
+.animate_tile-enter-to 
+    // transform: translateY(0)  
+    opacity: 1
+
+.animate_tile-leave
+    transform:  scale(1)
+    opacity: 1 
+
+.animate_tile-leave-to 
+    transform:  scale(0)
+    opacity: 0 
+
+
+
+
+
+
+
+
+.fade-enter-active
+    transition-delay: 0.2s
+    transition: all .3s 
+.fade-leave-active 
+    transition: all .5s
+ 
+.fade-enter 
+    transform:  translateY(50%)
+    opacity: 0
+
+.fade-enter-to 
+    transform: translateY(0)
+    opacity: 1 
+
+.fade-leave
+    // transform: translateY(-50%)
+    opacity: 1 
+
+.fade-leave-to 
+    // transform: translateY(-50%)
+    opacity: 0
